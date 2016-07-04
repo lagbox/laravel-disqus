@@ -1,0 +1,25 @@
+{
+    "name": "lagbox/laravel-disqus",
+    "description": "Easily add disqus comments to your resources",
+    "license": "MIT",
+    "keywords": ["laravel", "disqus"],
+    "authors": [
+        {
+            "name": "lagbox",
+            "email": "lagbox@asklagbox.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "illuminate/support": "5.1.*|5.2.*",
+        "illuminate/view": "5.1.*|5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lagbox\\disqus\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
