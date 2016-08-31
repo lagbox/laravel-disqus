@@ -1,12 +1,17 @@
 <?php
 
-namespace lagbox\disqus;
+namespace lagbox\Disqus;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
 class DisqusServiceProvider extends ServiceProvider
 {
+    /**
+     * Bootstrap anything needed.
+     *
+     * @return void
+     */
     public function boot()
     {
         Blade::directive('disqus', function ($expression) {
@@ -20,6 +25,11 @@ class DisqusServiceProvider extends ServiceProvider
         ]);
     }
 
+    /**
+     * Register any bindings with the container.
+     *
+     * @return void
+     */
     public function register()
     {
 

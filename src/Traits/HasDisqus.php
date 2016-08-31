@@ -1,6 +1,6 @@
 <?php
 
-namespace lagbox\disqus\Traits;
+namespace lagbox\Disqus\Traits;
 
 trait HasDisqus
 {

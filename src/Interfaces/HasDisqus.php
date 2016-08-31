@@ -1,6 +1,6 @@
 <?php
 
-namespace lagbox\disqus\Interfaces;
+namespace lagbox\Disqus\Interfaces;
 
 interface HasDisqus
 {

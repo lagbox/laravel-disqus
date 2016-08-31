@@ -11,12 +11,12 @@
     ],
     "require": {
         "php": ">=5.4",
-        "illuminate/support": "5.1.*|5.2.*",
-        "illuminate/view": "5.1.*|5.2.*"
+        "illuminate/support": "5.1.*|5.2.*|5.3.*",
+        "illuminate/view": "5.1.*|5.2.*|5.3.*"
     },
     "autoload": {
         "psr-4": {
-            "lagbox\\disqus\\": "src"
+            "lagbox\\Disqus\\": "src"
         },
         "files": [
             "src/helpers.php"
